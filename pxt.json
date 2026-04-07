@@ -19,11 +19,11 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "2.0.30",
+        "target": "2.1.27",
         "targetId": "minecraft"
     },
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
