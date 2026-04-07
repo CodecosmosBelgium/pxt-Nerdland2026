@@ -25,17 +25,17 @@ namespace CodeFever {
         agent.move(FORWARD, 1);
     }
 
-    //% block="Beweeg Vooruit"
+    //% block="Beweeg Achteruit"
     export function moveAgentBack() {
         agent.move(BACK, 1);
     }
 
-    //% block="Beweeg Vooruit"
+    //% block="Beweeg Links"
     export function moveAgentLeft() {
         agent.move(LEFT, 1);
     }
 
-    //% block="Beweeg Vooruit"
+    //% block="Beweeg Rechts"
     export function moveAgentRight() {
         agent.move(RIGHT, 1);
     }
