@@ -5,16 +5,11 @@
 ```blocks
 player.onChat("level1", function () {
     builder.teleportTo(pos(0, -1, 0))
-    builder.face(SOUTH)
-    mobs.give(
-    mobs.target(NEAREST_PLAYER),
-    MINECART,
-    1
-    )
-    CodeFever.diagonaalSpoor()
-    CodeFever.horizontaalSpoor()
-    CodeFever.draaiendSpoor()
-    CodeFever.vuurwerkSpoor()
+    Codefever.moveAgentForward();
+    Codefever.moveAgentBack();
+    Codefever.moveAgentLeftd();
+    Codefever.moveAgentRight();
+    Codefever.placeCopper();
     for (let index = 0; index < 4; index++) {
     }
 })
