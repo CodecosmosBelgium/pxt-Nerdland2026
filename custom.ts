@@ -25,7 +25,7 @@ namespace CodeFever {
     }
 
     //% block="Beweeg Agent"
-    //% lengte.defl=vooruit
+    //% richting.defl=vooruit
     export function moveAgent(richting: Richting) {
         switch(richting){
             case Richting.Vooruit:
