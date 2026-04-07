@@ -1,16 +1,5 @@
 //% color=140 weight=100 block="CodeFever"
 namespace CodeFever {
-    export enum Richting {
-        //% block="vooruit"
-        Vooruit,
-        //% block="achteruit"
-        Achteruit,
-        //% block="links"
-        Links,
-        //% block=rechts
-        Rechts
-    }
-
     //% block="Plaats Koper"
     export function placeCopper(){
         let position = agent.getPosition().add(pos(0, -1, 0));

@@ -21,6 +21,6 @@ player.onChat("level1", function () {
 })
 ```
 
-## Bouw achtbaan
+## Repareer Chips
 
-Maak gebruik van de instructies op het A4 blad om een achtbaan te maken.
+Gebruik de agent om de chips te repareren voor de drones.
